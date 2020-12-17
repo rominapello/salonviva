@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+/*Screen sizes*/
+/* Fonts */
+/* Colors */
+header .rotulo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between; }
+  header .rotulo .logo {
+    padding: 15px 15px;
+    margin: 5px; }
+  header .rotulo ul li {
+    list-style: none;
+    text-align: right;
+    padding: 30px 5px;
+    margin: 5px;
+    display: inline-block; }
+    header .rotulo ul li a {
+      color: #FBF9F9;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+      text-decoration: none; }
+      header .rotulo ul li a:hover {
+        color: #cc6633; }
+
+h2.titulos, h2.contac {
+  color: #FBF9F9;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 90px;
+  text-align: center; }
+
+h2.contac {
+  color: #0c0c0c;
+  background-color: #FBF9F9;
+  border-bottom: 1px solid #cc6633; }
+
+#servicios-portada {
+  background-image: url(../imagenes/servicios.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#catering-portada {
+  background-image: url(../imagenes/catering.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#experiencias-portada {
+  background-image: url(../imagenes/experiencias.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*
+#servicios{
+    background-image: url(../../imagenes/djenblancoynegro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#catering{
+    background-image: url(../../imagenes/cateringblancoynegro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#experiencias{
+    background-image: url(../../imagenes/experiencias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+#contacto {
+  background: #FBF9F9; }
+  #contacto a {
+    color: #0c0c0c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none; }
+  #contacto a:hover {
+    color: #cc6633; }
+
+footer {
+  width: 100%;
+  background-color: #252525;
+  text-align: center; }
+  footer .copyright {
+    color: #FBF9F9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin: 5px; }
+  footer ul#iconos-contact li {
+    display: inline-block; }
+    footer ul#iconos-contact li a {
+      font-size: 20px;
+      color: #FBF9F9; }
+      footer ul#iconos-contact li a:hover {
+        color: #cc6633; }
+
+/* Pag servicios y catering*/
+section.texto {
+  color: #252525;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 15px; }
+  section.texto .bloque1 {
+    display: flex;
+    margin: top; }
+  section.texto #parrafo1, section.texto #parrafo2 {
+    width: 500px;
+    height: 150px;
+    margin: 50px;
+    align-self: center;
+    justify-self: end; }
+  section.texto #parrafo2 {
+    justify-self: start; }
+  section.texto #parrafo3 {
+    width: auto;
+    text-align: center;
+    padding: 0px 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px; }
+
+/* Pag contacto*/
+#texto2 {
+  color: #252525;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 2px;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-items: center;
+  margin: 20px; }
+
+/* Pag home*/
+h2.index-titulo {
+  color: #252525;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 80px;
+  text-align: center; }
+
+/* Pag experiencias*/
+.texto3 {
+  color: #252525;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 2px; }
+  .texto3:hover {
+    color: #cc6633; }
+  .texto3 .experiencia1 {
+    width: 330px;
+    height: auto; }
+    .texto3 .experiencia1:hover {
+      width: 589px;
+      height: 585px;
+      padding: 50px 0px 0px 0px;
+      opacity: 80%;
+      background-color: #cc6633; }
+  .texto3 .momento {
+    text-align: center;
+    padding-top: 10px; }
+
+.contenedor {
+  width: 100%;
+  margin: auto; }
+
+.boton1 {
+  width: 200px;
+  height: 35px;
+  background-color: #cc6633;
+  text-align: center;
+  padding: 0px 5px;
+  border: 2px outset #cc6633;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px; }
+  .boton1 a {
+    text-decoration: none;
+    text-align: center;
+    color: #FBF9F9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; }
+  .boton1:hover {
+    color: #252525; }
+
+.boton2 {
+  width: 200px;
+  height: 35px;
+  background-color: #252525;
+  text-align: center;
+  padding: 0px 5px;
+  border: 2px outset #252525;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px; }
+  .boton2 a {
+    text-decoration: none;
+    text-align: center;
+    color: #FBF9F9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; }
+  .boton2:hover {
+    color: #252525; }

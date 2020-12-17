@@ -1,0 +1,118 @@
+/* Pag servicios y catering*/
+section.texto {
+    color: $gray;
+    font-family: $font-text;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 15px;
+    .bloque1{
+        display: flex;
+        margin: top;
+    }
+    #parrafo1{
+        width: 500px;
+        height: 150px;
+        margin: 50px;
+        align-self: center;
+        justify-self: end;
+    }
+    #parrafo2{
+        @extend #parrafo1;
+        justify-self: start;
+    }
+    #parrafo3{
+        width: auto;
+        text-align: center;
+        padding: 0px 5px; 
+        display:block;
+        margin: auto;
+         margin-bottom: 15px ;
+    }
+}
+
+
+/* Pag contacto*/
+
+#texto2{
+    color: $gray;
+    font-family: $font-text;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 2px;
+    display: grid;
+    grid-row-gap: 20px;
+    justify-items: center;
+    margin: 20px;
+}
+
+/* Pag home*/
+
+h2.index-titulo{
+    color: $gray;
+    font-family: $font-text;
+    font-size: 80px;
+    text-align: center;
+}
+
+/* Pag experiencias*/
+.texto3{
+    color:$gray;
+    font-family: $font-text;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 2px;
+    
+    &:hover{
+        color: $details;
+    }
+
+    .experiencia1{
+        width: 330px;
+        height: auto;
+        &:hover{
+            width: 589px;
+            height: 585px;
+            padding: 50px 0px 0px 0px;
+            opacity: 80%;
+            background-color:rgb(204, 102,51);
+        }
+    }
+    .momento{
+        text-align: center;
+        padding-top:10px;
+    
+    }
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+@mixin boton ($bgcolor,  $border, $color) {
+    width: 200px;
+    height: 35px;
+    background-color: $bgcolor;
+    text-align: center;
+    padding: 0px 5px; 
+    border: 2px outset $border;
+    border-radius: 20px;
+    display:block;
+    margin: auto;
+    margin-bottom: 15px ;
+    a{
+        text-decoration: none;
+        text-align: center;
+        color: $color;
+        font-family: $font-title;
+        font-size: 20px;
+    }
+    &:hover{
+        color: $gray;
+    }
+}
+
+.boton1{ 
+    @include boton($details, $details, $white)
+}
