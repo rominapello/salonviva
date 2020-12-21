@@ -82,6 +82,7 @@ h2.contac {
 
 footer {
   width: 100%;
+  height: 60px;
   background-color: #252525;
   text-align: center; }
   footer .copyright {
@@ -164,7 +165,8 @@ h2.index-titulo {
 
 .contenedor {
   width: 100%;
-  margin: auto; }
+  margin: auto;
+  background-color: #252525; }
 
 .boton1 {
   width: 200px;

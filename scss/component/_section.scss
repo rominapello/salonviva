@@ -84,6 +84,7 @@ h2.index-titulo{
 .contenedor{
     width: 100%;
     margin: auto;
+    background-color: $gray;
 }
 
 @mixin boton ($bgcolor,  $border, $color) {
