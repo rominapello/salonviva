@@ -163,6 +163,12 @@ h2.index-titulo {
       color: #cc6633;
       opacity: 80%; }
 
+h3.contacto3 {
+  font-family: "Alegreya Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem; }
+
 .contenedor {
   width: 100%;
   margin: auto; }
