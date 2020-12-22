@@ -28,7 +28,7 @@ header .rotulo {
 h2.titulos, h2.contac {
   color: #FBF9F9;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 5.62rem;
+  font-size: 4rem;
   text-align: center; }
 
 h2.contac {
@@ -102,9 +102,9 @@ footer {
 section.texto {
   color: #252525;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 1.25rem;
   text-align: justify;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  align-self: center; }
   section.texto .bloque1 {
     display: flex;
     margin: top; }
@@ -118,11 +118,9 @@ section.texto {
     justify-self: start; }
   section.texto #parrafo3 {
     width: auto;
+    height: 200px;
     text-align: center;
-    padding: 0px 5px;
-    display: block;
-    margin: auto;
-    margin-bottom: 15px; }
+    padding: 0px 5px; }
 
 /* Pag contacto*/
 #texto2 {
@@ -140,8 +138,10 @@ section.texto {
 h2.index-titulo {
   color: #252525;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 5rem;
-  text-align: center; }
+  font-size: 3rem;
+  text-align: center;
+  height: 150px;
+  padding: 80px 0px 0px 0px; }
 
 /* Pag experiencias*/
 .texto3 {
@@ -165,17 +165,16 @@ h2.index-titulo {
 
 .contenedor {
   width: 100%;
-  margin: auto;
-  background-color: #252525; }
+  margin: auto; }
 
 .boton1 {
   width: 200px;
   height: 35px;
-  background-color: #cc6633;
+  background-color: #252525;
   text-align: center;
   padding: 0px 5px;
-  border: 2px outset #cc6633;
-  border-radius: 20px;
+  border: 2px outset #252525;
+  border-radius: 5px;
   display: block;
   margin: auto;
   margin-bottom: 15px; }
@@ -186,4 +185,6 @@ h2.index-titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.25rem; }
   .boton1:hover {
-    color: #252525; }
+    background-color: #cc6633;
+    border: 2px outset #cc6633;
+    color: #FBF9F9; }

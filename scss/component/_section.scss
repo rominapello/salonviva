@@ -1,10 +1,10 @@
 /* Pag servicios y catering*/
-section.texto {
+section.texto{
     color: $gray;
     font-family: $font-text;
-    font-size: 1.25rem;
     text-align: justify;
     margin-bottom: 15px;
+    align-self: center;
     .bloque1{
         display: flex;
         margin: top;
@@ -22,14 +22,11 @@ section.texto {
     }
     #parrafo3{
         width: auto;
+        height: 200px;
         text-align: center;
         padding: 0px 5px; 
-        display:block;
-        margin: auto;
-         margin-bottom: 15px ;
     }
 }
-
 
 /* Pag contacto*/
 
@@ -50,8 +47,10 @@ section.texto {
 h2.index-titulo{
     color: $gray;
     font-family: $font-text;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
+    height: 150px;
+    padding: 80px 0px 0px 0px;
 }
 
 /* Pag experiencias*/
@@ -84,32 +83,30 @@ h2.index-titulo{
 .contenedor{
     width: 100%;
     margin: auto;
-    background-color: $gray;
 }
 
-@mixin boton ($bgcolor,  $border, $color) {
+.boton1 {
     width: 200px;
     height: 35px;
-    background-color: $bgcolor;
+    background-color: $gray;
     text-align: center;
     padding: 0px 5px; 
-    border: 2px outset $border;
-    border-radius: 20px;
+    border: 2px outset $gray;
+    border-radius: 5px;
     display:block;
     margin: auto;
     margin-bottom: 15px ;
     a{
         text-decoration: none;
         text-align: center;
-        color: $color;
+        color: $white;
         font-family: $font-title;
         font-size: 1.25rem;
     }
     &:hover{
-        color: $gray;
+        background-color: $details;
+        border: 2px outset $details;
+        color: $white;
     }
 }
 
-.boton1{ 
-    @include boton($details, $details, $white)
-}
