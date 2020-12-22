@@ -188,3 +188,24 @@ h2.index-titulo {
     background-color: #cc6633;
     border: 2px outset #cc6633;
     color: #FBF9F9; }
+
+.boton2 {
+  width: 200px;
+  height: 35px;
+  background-color: #252525;
+  text-align: center;
+  padding: 0px 5px;
+  border: 2px outset #252525;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  text-decoration: none;
+  text-align: center;
+  color: #FBF9F9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.25rem; }
+  .boton2:hover {
+    background-color: #cc6633;
+    border: 2px outset #cc6633;
+    color: #FBF9F9; }

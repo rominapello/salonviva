@@ -110,3 +110,26 @@ h2.index-titulo{
     }
 }
 
+.boton2 {
+    width: 200px;
+    height: 35px;
+    background-color: $gray;
+    text-align: center;
+    padding: 0px 5px; 
+    border: 2px outset $gray;
+    border-radius: 5px;
+    display:block;
+    margin: auto;
+    margin-bottom: 15px ;
+    text-decoration: none;
+    text-align: center;
+    color: $white;
+    font-family: $font-title;
+    font-size: 1.25rem;
+    &:hover{
+        background-color: $details;
+        border: 2px outset $details;
+        color: $white;
+    }
+}
+
