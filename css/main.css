@@ -20,7 +20,7 @@ header .rotulo {
     header .rotulo ul li a {
       color: #FBF9F9;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 10px;
+      font-size: 1rem;
       text-decoration: none; }
       header .rotulo ul li a:hover {
         color: #cc6633; }
