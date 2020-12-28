@@ -111,8 +111,7 @@ section.texto {
     display: flex;
     margin: top; }
   section.texto #parrafo1, section.texto #parrafo2 {
-    width: 500px;
-    height: 150px;
+    width: auto;
     margin: 50px;
     align-self: center;
     justify-self: end; }
@@ -130,11 +129,12 @@ section.texto {
   font-family: "Alegreya Sans", sans-serif;
   font-size: 0.93rem;
   line-height: 1;
-  letter-spacing: 2px;
   display: grid;
   grid-row-gap: 20px;
   justify-items: center;
   margin: auto; }
+  #texto2 p {
+    text-align: center; }
 
 /* Pag home*/
 h2.index-titulo {

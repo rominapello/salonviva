@@ -10,8 +10,7 @@ section.texto{
         margin: top;
     }
     #parrafo1{
-        width: 500px;
-        height: 150px;
+        width: auto;
         margin: 50px;
         align-self: center;
         justify-self: end;
@@ -35,11 +34,13 @@ section.texto{
     font-family: $font-text;
     font-size: 0.93rem;
     line-height: 1;
-    letter-spacing: 2px;
     display: grid;
     grid-row-gap: 20px;
     justify-items: center;
     margin: auto;
+    p{
+    text-align: center;
+    }
 }
 
 /* Pag home*/
