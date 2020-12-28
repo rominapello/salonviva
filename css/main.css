@@ -14,13 +14,13 @@ header .rotulo {
   header .rotulo ul li {
     list-style: none;
     text-align: right;
-    padding: 30px 5px;
+    padding: 0px;
     margin: 5px;
     display: inline-block; }
     header .rotulo ul li a {
       color: #FBF9F9;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 1.25rem;
+      font-size: 10px;
       text-decoration: none; }
       header .rotulo ul li a:hover {
         color: #cc6633; }
