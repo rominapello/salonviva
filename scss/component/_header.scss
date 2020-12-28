@@ -38,8 +38,8 @@ h2.titulos{
 
 h2.contac{
     @extend h2.titulos;
-    color: $black;
-    background-color: $white;
+    color: $white;
+    background-color: $gray;
     border-bottom: 1px solid $details;
 }
 
@@ -72,9 +72,9 @@ h2.contac{
 */
 
 #contacto{
-    background: $white;
+    background: $gray;
             a{ 
-                color: $black;
+                color: $white;
                 font-family: $font-title;
                 font-size: 1.25rem;
                 text-decoration: none;

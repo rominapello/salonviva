@@ -32,8 +32,8 @@ h2.titulos, h2.contac {
   text-align: center; }
 
 h2.contac {
-  color: #0c0c0c;
-  background-color: #FBF9F9;
+  color: #FBF9F9;
+  background-color: #252525;
   border-bottom: 1px solid #cc6633; }
 
 #servicios-portada {
@@ -71,9 +71,9 @@ h2.contac {
 }
 */
 #contacto {
-  background: #FBF9F9; }
+  background: #252525; }
   #contacto a {
-    color: #0c0c0c;
+    color: #FBF9F9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.25rem;
     text-decoration: none; }
@@ -132,7 +132,7 @@ section.texto {
   display: grid;
   grid-row-gap: 20px;
   justify-items: center;
-  margin: 20px; }
+  margin: auto; }
 
 /* Pag home*/
 h2.index-titulo {
@@ -215,3 +215,6 @@ h3.contacto3 {
     background-color: #cc6633;
     border: 2px outset #cc6633;
     color: #FBF9F9; }
+
+.formulario {
+  padding: 10px; }

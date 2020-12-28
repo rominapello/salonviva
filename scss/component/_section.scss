@@ -39,7 +39,7 @@ section.texto{
     display: grid;
     grid-row-gap: 20px;
     justify-items: center;
-    margin: 20px;
+    margin: auto;
 }
 
 /* Pag home*/
@@ -140,3 +140,7 @@ h3.contacto3{
     }
 }
 
+.formulario{
+    padding: 10px; 
+    
+}
