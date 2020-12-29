@@ -4,7 +4,7 @@ section.texto{
     font-family: $font-text;
     text-align: justify;
     margin-bottom: 15px;
-    align-self: center;
+    
     .bloque1{
         display: flex;
         margin: top;
@@ -25,6 +25,16 @@ section.texto{
         text-align: center;
         padding: 0px 5px; 
     }
+}
+
+#texto1{
+    color: $gray;
+    font-family: $font-text;
+    font-size: 0.93rem;
+    text-align: justify;
+    margin-bottom: 15px;
+    align-self: center;
+    justify-self: end;
 }
 
 /* Pag contacto*/
@@ -91,6 +101,9 @@ h3.contacto3{
 .contenedor{
     width: 100%;
     margin: auto;
+    display: flex;
+    margin: top;
+    margin-bottom: 15px;
 }
 
 .boton1 {

@@ -105,8 +105,7 @@ section.texto {
   color: #252525;
   font-family: "Alegreya Sans", sans-serif;
   text-align: justify;
-  margin-bottom: 15px;
-  align-self: center; }
+  margin-bottom: 15px; }
   section.texto .bloque1 {
     display: flex;
     margin: top; }
@@ -122,6 +121,15 @@ section.texto {
     height: 200px;
     text-align: center;
     padding: 0px 5px; }
+
+#texto1 {
+  color: #252525;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.93rem;
+  text-align: justify;
+  margin-bottom: 15px;
+  align-self: center;
+  justify-self: end; }
 
 /* Pag contacto*/
 #texto2 {
@@ -173,7 +181,10 @@ h3.contacto3 {
 
 .contenedor {
   width: 100%;
-  margin: auto; }
+  margin: auto;
+  display: flex;
+  margin: top;
+  margin-bottom: 15px; }
 
 .boton1 {
   width: 200px;
