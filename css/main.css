@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
-/*Screen sizes*/
 /* Fonts */
 /* Colors */
 header .rotulo {
@@ -130,6 +129,9 @@ section.texto {
   margin-bottom: 15px;
   align-self: center;
   justify-self: end; }
+
+.imag {
+  margin: 10px 0px 0px 0px; }
 
 /* Pag contacto*/
 #texto2 {
