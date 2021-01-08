@@ -31,7 +31,7 @@ header{
 h2.titulos{
     color: $white;
     font-family: $font-text;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -39,7 +39,6 @@ h2.contac{
     @extend h2.titulos;
     color: $white;
     background-color: $gray;
-    border-bottom: 1px solid $details;
 }
 
 @each $header in servicios, catering, experiencias{

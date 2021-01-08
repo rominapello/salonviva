@@ -62,7 +62,7 @@ section.texto{
 h2.index-titulo{
     color: $gray;
     font-family: $font-text;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     height: 150px;
     padding: 50px 0px 0px 0px;
@@ -80,6 +80,7 @@ h2.index-titulo{
     .experiencia1{
         align-self: center;
         &:hover{
+            color: $details;
             opacity: 80%;
         }
     }

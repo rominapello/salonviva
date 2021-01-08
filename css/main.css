@@ -26,13 +26,12 @@ header .rotulo {
 h2.titulos, h2.contac {
   color: #FBF9F9;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center; }
 
 h2.contac {
   color: #FBF9F9;
-  background-color: #252525;
-  border-bottom: 1px solid #cc6633; }
+  background-color: #252525; }
 
 #servicios-portada {
   background-image: url(../imagenes/servicios.jpg);
@@ -150,7 +149,7 @@ section.texto {
 h2.index-titulo {
   color: #252525;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   height: 150px;
   padding: 50px 0px 0px 0px; }
@@ -166,6 +165,7 @@ h2.index-titulo {
   .texto3 .experiencia1 {
     align-self: center; }
     .texto3 .experiencia1:hover {
+      color: #cc6633;
       opacity: 80%; }
   .texto3 .momento {
     color: #252525;
