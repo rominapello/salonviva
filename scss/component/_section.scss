@@ -68,6 +68,14 @@ h2.index-titulo{
     padding: 50px 0px 0px 0px;
 }
 
+.flor{
+    display:block;
+    margin: auto;
+    align-self: center;
+    padding: 20px 0px 0px 0px
+}
+
+
 /* Pag experiencias*/
 .texto3{
     color:$gray;
@@ -162,4 +170,29 @@ h3.contacto3{
 .formulario{
     padding: 10px; 
     
+}
+
+.flotante-izq {
+    background-color: #15b165;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    color: $white;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px $black;
+
+    &:hover {
+        color: $details;
+        text-decoration: none;
+        }
+    
+
+    .fa-whatsapp{
+    font-size: 2.5em;
+    top: 10px;
+    position: relative;
+
+     }
 }
