@@ -86,7 +86,8 @@ footer {
     color: #FBF9F9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.6rem;
-    margin: 5px; }
+    margin: 5px;
+    padding: 8px 0px 0px 0px; }
   footer ul#iconos-contact {
     padding: 0px 0px 0px 0px; }
     footer ul#iconos-contact li {
